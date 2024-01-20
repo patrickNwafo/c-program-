@@ -53,10 +53,9 @@ int main()
     //     printf("%c is not valid", operator);
     // }
 
-    float temp = 12;
-    bool sunny = true;
+    float temp = -1000;
 
-    if (temp >= 0 && temp <= 30 && sunny)
+    if (temp <= 0 || temp >= 30 )
     {
         printf("\nThe weather is good!");
     }
