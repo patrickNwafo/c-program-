@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main()
 {
@@ -16,40 +17,52 @@ int main()
 
     // printf("\ncircumference: %lf", circumference);
     // printf("\n area %lf", area);
-    char operator;
-    double num1;
-    double num2;
-    double result;
+    // char operator;
+    // double num1;
+    // double num2;
+    // double result;
 
-    printf("\nEnter an operator (+ - * /): ");
-    scanf("%c", &operator);
+    // printf("\nEnter an operator (+ - * /): ");
+    // scanf("%c", &operator);
 
-    printf("\nEnter number 1: ");
-    scanf("%lf", &num1);
+    // printf("\nEnter number 1: ");
+    // scanf("%lf", &num1);
 
-    printf("\nEnter number 2: ");
-    scanf("%lf", &num2);
+    // printf("\nEnter number 2: ");
+    // scanf("%lf", &num2);
 
-    switch (operator)
+    // switch (operator)
+    // {
+    // case '+':
+    //     result = num1 + num2;
+    //     printf("\nresult: %lf", result);
+    //     break;
+
+    // case '-':
+    //     result = num1 - num2;
+    //     printf("\nresult: %lf", result);
+
+    // case '*':
+    //     result = num1 * num2;
+    //     printf("\nresult: %lf", result);
+
+    // case '/':
+    //     result = num1 / num2;
+    //     printf("\nresult: %lf", result);
+    // default:
+    //     printf("%c is not valid", operator);
+    // }
+
+    float temp = 12;
+    bool sunny = true;
+
+    if (temp >= 0 && temp <= 30 && sunny)
     {
-    case '+':
-        result = num1 + num2;
-        printf("\nresult: %lf", result);
-        break;
-
-    case '-':
-        result = num1 - num2;
-        printf("\nresult: %lf", result);
-
-    case '*':
-        result = num1 * num2;
-        printf("\nresult: %lf", result);
-
-    case '/':
-        result = num1 / num2;
-        printf("\nresult: %lf", result);
-    default:
-        printf("%c is not valid", operator);
+        printf("\nThe weather is good!");
+    }
+    else
+    {
+        printf("\nThe weather is bad!");
     }
 
     return 0;
