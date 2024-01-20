@@ -53,15 +53,26 @@ int main()
     //     printf("%c is not valid", operator);
     // }
 
-    float temp = -1000;
+    // float temp = -1000;
 
-    if (temp <= 0 || temp >= 30 )
+    // if (temp <= 0 || temp >= 30 )
+    // {
+    //     printf("\nThe weather is good!");
+    // }
+    // else
+    // {
+    //     printf("\nThe weather is bad!");
+    // }
+
+    bool sunny = true;
+
+    if (!sunny)
     {
-        printf("\nThe weather is good!");
+        printf("\nIts sunny outside!");
     }
     else
     {
-        printf("\nThe weather is bad!");
+        printf("\nIts cloudy outside");
     }
 
     return 0;
