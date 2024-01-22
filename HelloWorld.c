@@ -113,29 +113,28 @@
 //     return 0;
 // }
 
+// float height;
+// printf("How tall are you?");
 
-    // float height;
-    // printf("How tall are you?");
+// scanf("%f", &height);
+// printf("\nYou are %.2f tall", height);
 
-    // scanf("%f", &height);
-    // printf("\nYou are %.2f tall", height);
+// write the program to calculate a average of 3 numbers and square
 
-    // write the program to calculate a average of 3 numbers and square
+//  double num1, num2, num3, average, squaredAverage;
 
-    //  double num1, num2, num3, average, squaredAverage;
+//    double num1, num2, num3, average, squaredAverage;
 
-    //    double num1, num2, num3, average, squaredAverage;
+//     printf("Enter three numbers: ");
+//     scanf("%lf %lf %lf", &num1, &num2, &num3);
 
-    //     printf("Enter three numbers: ");
-    //     scanf("%lf %lf %lf", &num1, &num2, &num3);
+//     average = (num1 + num2 + num3) / 3;
 
-    //     average = (num1 + num2 + num3) / 3;
+//     printf("The average of the three numbers is: %.2lf\n", average);
 
-    //     printf("The average of the three numbers is: %.2lf\n", average);
+//     squaredAverage = average * average;
 
-    //     squaredAverage = average * average;
-
-    //     printf("The squared average is: %.2lf\n", squaredAverage);
+//     printf("The squared average is: %.2lf\n", squaredAverage);
 
 // #include <stdio.h>
 // int main()
@@ -173,7 +172,6 @@
 //     return 0;
 // }
 
-
 // #include <stdio.h>
 // #include <math.h>
 
@@ -196,7 +194,7 @@
 //             scanf("%lf", &opposite);
 //             printf("Enter the hypotenuse: ");
 //             scanf("%lf", &hypotenuse);
-//             angle = asin(opposite / hypotenuse) * 180 / M_PI; 
+//             angle = asin(opposite / hypotenuse) * 180 / M_PI;
 //             printf("The angle is: %.2lf degrees\n", angle);
 //             break;
 
@@ -224,3 +222,60 @@
 
 //     return 0;
 // }
+
+#include <stdio.h>
+int main()
+{
+    // printf("---While loop Program---\n");
+
+    // int i = 0;
+    // while (i < 5)
+    // {
+    //     printf("\n%d\n", i);
+    //     i++;
+    // }
+
+    // printf("-----Do While Lop-----");
+
+    // int k = 0;
+    // do
+    // {
+    //     printf("My Lucky Number is %d\n", k);
+    //     k++;
+    // } while (k < 11);
+
+    // printf("-----For Loop-----");
+
+    // int count;
+    // printf("\tThis is a \n");
+
+    // for (count = 1; count <= 6; count++)
+    // {
+    //     printf("\n\t\t nice");
+
+    //     printf("\n\t\t World. \n");
+    // }
+
+    // int i, j, max;
+    // printf("Please enter the maximum value\n");
+    // printf("for which a table can be printed: ");
+    // scanf("%d", &max);
+
+    // for (i = 0, j = max; i <= max; i++, j--)
+    // {
+    //     printf("\n%d + %d = %d", i, j, i + j);
+    // }
+
+    int i, j, k;
+    i = 0;
+    printf("Enter no. of rows :");
+    scanf("%d", &i);
+    printf("\n");
+    for (j = 0; j < i; j++)
+    {
+        printf("\n");
+        for (k = 0; k <= j; k++) /* inner for loops*/
+
+            printf("*");
+    }
+}
